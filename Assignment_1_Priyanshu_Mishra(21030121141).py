@@ -8,7 +8,7 @@ while gamechoice!=0:
     print("0. Exit App")
     print("1. Rock Paper Scissors")
     print("2. Math Game: Test your problem solving skills")
-    print("3. Gusseing Game")
+    print("3. Guessing Game")
 
     gamechoice=int (input ("Enter Your Choice of Game: "))# Stores what game users want to play.
 
@@ -138,7 +138,7 @@ while gamechoice!=0:
                 divisionchoice = -1
                 while True:
 
-                    print("Welcome to Divison Game!")
+                    print("Welcome to Division Game!")
                     print("--- Choose Level ---")
                     print("0. Exit")
                     print("1. Beginner")
@@ -165,7 +165,7 @@ while gamechoice!=0:
                         number2 = random.randint(20,100)
                               
                     elif divisionchoice==0:
-                        print("Exited from Divison game!")
+                        print("Exited from Division game!")
                         break
                     else:
                         print("Invalid Choice!")
@@ -238,7 +238,7 @@ while gamechoice!=0:
                 substractionchoice = -1
                 while True:
 
-                    print("Welcome to Substraction Game!")
+                    print("Welcome to Subtraction Game!")
                     print("--- Choose Level ---")
                     print("0. Exit")
                     print("1. Beginner")
@@ -265,7 +265,7 @@ while gamechoice!=0:
                         number2 = random.randint(20,100)
                          
                     elif substractionchoice==0:
-                        print("Exited from Substraction game!")
+                        print("Exited from Subtraction game!")
                         break
                     else:
                         print("Invalid Choice!")
@@ -291,7 +291,7 @@ while gamechoice!=0:
                 print("Invalid Input")
     elif gamechoice==3:
         guesschoice=-1
-        print("Welcome to Guess Game!")
+        print("Welcome to Guessing Game!")
         print("0. Back to main menu")
         print("1. Play")
         guesschoice=int(input("Enter your choice: "))
@@ -314,8 +314,10 @@ while gamechoice!=0:
                 print("The number was",randomnumber,".")
                 guesschoice=int(input("If you would like to exit to main menu, type 0. If you want to keep guessing, type 1: "))
             elif guesschoice==0:
-                print("GuessGame Exited!")
+                print("Guessing Game Exited!")
                 break #Breaks the loop and exits the game.
             elif guesschoice!=(0,1):
                 print("Invalid Input")
                 guesschoice=int(input("Enter your choice: "))
+
+#By Priyanshu Mishra
