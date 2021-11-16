@@ -235,7 +235,7 @@ while gamechoice!=0:
                             chances = chances - 1
                         print("You have ",chances," chances!")
             elif operatorchoice==4:
-                substractionchoice = -1
+                subtractionchoice = -1
                 while True:
 
                     print("Welcome to Subtraction Game!")
@@ -245,26 +245,26 @@ while gamechoice!=0:
                     print("2. Intermediate")
                     print("3. Expert")
                 
-                    substractionchoice = int( input("Enter Your Choice: "))
+                    subtractionchoice = int( input("Enter Your Choice: "))
                 
-                    if substractionchoice==1:
+                    if subtractionchoice==1:
                         chances=3
                         number1 = random.randint(1,10)
                         number2 = random.randint(1,10)
                     
-                    elif substractionchoice==2:
+                    elif subtractionchoice==2:
                         
                         chances=2
                         number1 = random.randint(10,50)
                         number2 = random.randint(10,50)
                        
-                    elif substractionchoice==3:
+                    elif subtractionchoice==3:
                         
                         chances=1
                         number1 = random.randint(20,100)
                         number2 = random.randint(20,100)
                          
-                    elif substractionchoice==0:
+                    elif subtractionchoice==0:
                         print("Exited from Subtraction game!")
                         break
                     else:
